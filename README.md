@@ -7,6 +7,8 @@ This is a compression scheme for when logical character count matters more than 
 ## Why?
 I started experimenting with this while trying to find a way to transmit data similar to [Animal Crossing custom designs](https://nookipedia.com/wiki/Design) which are 32x32 images with 16 colors. (As well as some bonus metadata.) Animal Crossing does this using QR codes or an in-game browser. I am always a fan of avoiding servers for video game purposes, so an offline scheme was of interest to me. On Mac OS-like and mobile operating systems, the clipboard can be utilized for easy data transfer. QR codes are technically also possible, but the use case is overly complex and wasteful as far as data goes.
 
+I initially wrote it in GDScript, did experimentation in Python, then reimplemented the code in GDScript rewritten for clarity.
+
 When using text, a raw dump of the hex values would best case be 1024 characters, which is workable in some cases but not in others. Animal Crossing has a Pro Design format which allows four 32x32 images to be packed. One for the front, back, and the two sleeves of a shirt. This would require three messages if it was unencoded hex data. (1,024 * 4 = 4,096)
 
 base4096 can compress this to 342 characters. This would allow for 5 images to be fit inside of one 2000 character message, up from 1.
