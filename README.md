@@ -34,7 +34,9 @@ AAAAAAAAAAAAAAAAA㒭AAAAAAAAA∌䃟AAAAAAAAJ䃮㿯AAAAAAAA㓮䃡AAAAAAAAK䃮㳯A
 
 ### Opening Project
 
-Simply click code, download zip, unzip it, and open `project.godot`.
+To open in Godot, simply click code, download zip, unzip it, and open `project.godot`.
+
+If you would just like to test inputs/outputs without opening it in the Godot Editor, download one of the releases.
 
 ## Couldn't you do base65536?
 
