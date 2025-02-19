@@ -46,4 +46,6 @@ In the best case, it shrinks from 342 characters to 256. However in the worst ca
 
 ## Notes
 
-For the vast majority of this experiment, I thought this was a novel idea, but it turns out *qntm* has done pretty extensive work in this sector in JavaScript. I wasn't aware of this until I had already fully implemented the Godot code, and I also think it might be of some use to developers.
+1. For the vast majority of this experiment, I thought this was a novel idea, but it turns out *qntm* has done pretty extensive work in this sector in JavaScript. I wasn't aware of this until I had already fully implemented the Godot code, and I also think it might be of some use to developers.
+
+2. I attempted to remove offensive characters from the selection, but I might have failed. Apologies if you see something unintended.
