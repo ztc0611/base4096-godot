@@ -42,7 +42,7 @@ If you would just like to test inputs/outputs without opening it in the Godot Ed
 
 Technically yes, but practically it is a worse solution. Anything over U+FFFF is counted as two characters in any practical tests I performed. 0xFFFF is indeed 65536, however there are many control characters, and characters that modify each other by being placed next to each other within that region. The majority of "safe" characters I could find were from the CJK Unified Ideographs Extension B, all of which are above U+FFFF.
 
-In the best case, it shrinks from 342 characters to 256. However in the worst case it is 512. In my tests, 42,720 characters out of the 65,536 (65%) were from Extension B. This means assuming even distribution of the characters, the average size would be 398 characters, which is actually worse than base4096! However, even if it was slightly better in the average case, I think the worst case is more important for this usage.
+In the best case, it shrinks from 342 characters to 256. However in the worst case it is 512. In my tests, 42,720 characters out of the 65,536 (65%) were from Extension B. This means assuming even distribution of the characters, the average size would be 398 characters, which is actually worse than base4096. However, even if it was slightly better in the average case, I think the worst case is more important for this usage.
 
 ## Notes
 
