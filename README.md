@@ -32,11 +32,13 @@ AAAAAAAAAAAAAAAAA㒭AAAAAAAAA∌䃟AAAAAAAAJ䃮㿯AAAAAAAA㓮䃡AAAAAAAAK䃮㳯A
 
 <img width="688" alt="image" src="https://github.com/user-attachments/assets/635915e4-d0fc-4d45-9a3b-08dff2908b72" />
 
-### Opening Project
+### Opening Project (Godot)
 
-To open in Godot, simply click code, download zip, unzip it, and open `project.godot`.
+To open in Godot, simply click code, download zip, unzip it, and open `project.godot` in Godot 4.x.
 
-If you would just like to test inputs/outputs without opening it in the Godot Editor, download one of the releases.
+### Opening Project (No Godot Editor)
+
+If you would just like to test inputs/outputs without opening it in the Godot Editor, download one of the [releases](https://github.com/ztc0611/base4096-godot/releases). Not notarized on macOS, sorry...
 
 ## Couldn't you do base65536?
 
