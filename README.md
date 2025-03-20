@@ -38,7 +38,7 @@ To open in Godot, simply click code, download zip, unzip it, and open `project.g
 
 ### Opening Project (No Godot Editor)
 
-If you would just like to test inputs/outputs without opening it in the Godot Editor, download one of the [releases](https://github.com/ztc0611/base4096-godot/releases). Not notarized on macOS, sorry...
+If you would just like to test inputs/outputs without opening it in the Godot Editor, download one of the [releases](https://github.com/ztc0611/base4096-godot/releases) and simply run it. Not notarized on macOS, sorry...
 
 ## Couldn't you do base65536?
 
