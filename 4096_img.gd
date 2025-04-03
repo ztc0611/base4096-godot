@@ -16,7 +16,7 @@ func _ready():
 
 # Picked unicode characters kind of at random to make it look more interesting. \
 # My intent is also to have avoided any characters that could directly come \
-# across as offensive, such as 0x5350, but I may have missed some.
+# across as offensive (symbols, words), but I may have missed some.
 func generate_unicode_chars():
 	var ranges = [
 		[0x0041, 0x007B],  # A-Z, a-z
