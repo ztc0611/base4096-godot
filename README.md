@@ -4,6 +4,8 @@ base4096 is an encoding scheme in the same vein as [base64](https://en.wikipedia
 
 This is a compression scheme for when logical character count matters more than physical bytes. This can be useful for apps that limit character count, such as Discord that caps at 2000 characters per message.
 
+The raw code can be seen within [4096_img.gd](https://github.com/ztc0611/base4096-godot/blob/main/4096_img.gd).
+
 ## Why?
 I started experimenting with this while trying to find a way to transmit data similar to [Animal Crossing custom designs](https://nookipedia.com/wiki/Design) which are 32x32 images with 16 colors. (As well as some bonus metadata.) Animal Crossing does this using QR codes or an in-game browser. I am always a fan of avoiding servers for video game purposes, so an offline scheme was of interest to me. On Mac OS-like and mobile operating systems, the clipboard can be utilized for easy data transfer. QR codes are technically also possible, but the use case is overly complex and wasteful as far as data goes.
 
